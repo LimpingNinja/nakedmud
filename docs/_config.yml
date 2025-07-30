@@ -2,10 +2,6 @@
 title: "NakedMud Documentation"
 description: "Comprehensive documentation for NakedMud MUD library"
 
-# GitHub Pages settings
-baseurl: ""
-url: ""
-
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -13,7 +9,7 @@ highlighter: rouge
 # Theme - GitHub Pages compatible
 remote_theme: just-the-docs/just-the-docs
 
-# Plugins
+# Plugins (GitHub Pages will automatically include these)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
