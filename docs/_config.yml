@@ -1,18 +1,23 @@
 # Jekyll configuration for NakedMud Documentation
 title: "NakedMud Documentation"
 description: "Comprehensive documentation for NakedMud MUD library"
+
+# GitHub Pages settings
 baseurl: ""
 url: ""
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: just-the-docs
+
+# Theme - GitHub Pages compatible
+remote_theme: just-the-docs/just-the-docs
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Just the Docs theme settings
 color_scheme: light
