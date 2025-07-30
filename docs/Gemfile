@@ -1,19 +1,22 @@
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+# Jekyll
+gem "jekyll", "~> 4.3.2"
 
-gem "jekyll", "~> 4.3.2" # installed by `gem jekyll`
-# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+# Theme
+gem "just-the-docs", "0.10.0"
 
-gem "just-the-docs", "0.10.0" # pinned to the current release
-# gem "just-the-docs"        # always download the latest release
+# Required plugins (from _config.yml)
+gem "jekyll-seo-tag"
+gem "jekyll-github-metadata"
+gem "jekyll-include-cache"
+
+# Additional common Jekyll plugins
+gem "jekyll-feed"
+gem "jekyll-sitemap"
+
+# Ruby 3+ compatibility
+gem "webrick", "~> 1.7"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
