@@ -1,22 +1,7 @@
 source "https://rubygems.org"
 
-# Jekyll
-gem "jekyll", "~> 4.3.2"
-
-# Theme
-gem "just-the-docs", "0.10.0"
-
-# Required plugins (from _config.yml)
-gem "jekyll-seo-tag"
-gem "jekyll-github-metadata"
-gem "jekyll-include-cache"
-
-# Additional common Jekyll plugins
-gem "jekyll-feed"
-gem "jekyll-sitemap"
-
-# Ruby 3+ compatibility
-gem "webrick", "~> 1.7"
+# GitHub Pages compatibility
+gem "github-pages", group: :jekyll_plugins
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

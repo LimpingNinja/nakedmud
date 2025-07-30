@@ -1,22 +1,19 @@
 title: "NakedMud Documentation"
 description: "Comprehensive documentation for NakedMud MUD library"
 
-theme: just-the-docs
-
-url: https://nakedmud.github.io
+# GitHub Pages remote theme
+remote_theme: just-the-docs/just-the-docs
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Plugins
+# Plugins (GitHub Pages compatible)
 plugins:
-  - jekyll-seo-tag
-  - jekyll-github-metadata
-  - jekyll-include-cache
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Just the Docs theme settings
 color_scheme: light
